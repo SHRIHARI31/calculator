@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.container {
+
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: -8px 10px 5px 10px rgb(112, 112, 112);
+  border-radius: 10px 10px 10px 10px;
+  background-color: black;
+  border: 3px solid black;
+  margin-bottom: 10%;
+
+}
+
+#display {
+
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 20px;
+  font-size: 25px;
+  box-shadow: inset 6px 6px 20px 5px rgba(53, 55, 53, 0.983);
+  background-color: rgba(128, 241, 133, 0.983);
+  border-radius: 10%;
+ border:1px solid mintcream;
+
+}
+
+.buttons {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.buttons>div {
+  box-shadow: inset 6px 6px 20px 5px rgba(53, 55, 53, 0.983);
+  background-color: aquamarine;
+  border: 5px solid rgb(138, 133, 133);
+  border-style: outset;
+  transition: 0.2s;
+
+}
+
+#equal {
+  font-weight: bolder;
+  background-color: rgba(128, 241, 133, 0.983);
+  transition: 0.2s;
+}
+
+#equal:hover {
+
+  box-shadow: inset 4px 4px 10px 0px rgba(53, 55, 53, 0.983);
+}
+
+#equal:active {
+  background-color: black;
+  color: white;
+
+}
+
+.button {
+  background-color: rgba(179, 235, 122, 0.158);
+  line-height: 100px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 2px;
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: 0.2s;
+ 
+}
+
+.button:hover {
+  box-shadow: inset 4px 4px 10px 0px rgba(53, 55, 53, 0.983);
+
+}
+
+
+
+.button:active {
+  background-color: #000000;
+  color: white;
+ 
+
+}
+
+
+#clear {
+  background-color: #000000;
+  color: aliceblue;
+  font-size: 50px;
+
+
+}
+
+#clear:active {
+  color: red;
+}
